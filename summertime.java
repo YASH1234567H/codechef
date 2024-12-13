@@ -8,7 +8,7 @@ class Codechef
 	{
 	    Scanner sc=new Scanner(System.in);
 	    int x=sc.nextInt();
-	    if(x<=36)
+	    if(x>35)
 	    {
 	        System.out.println("yes");
 	    }
