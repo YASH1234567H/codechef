@@ -8,12 +8,6 @@ class Codechef
 	{
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
-		int b=sc.nextInt();
-		if(2*a<=b)
-		{
-		    System.out.println("yes");
-		}else{
-		    System.out.println("No");
-		}
+		System.out.println(25-a);
 	}
 }

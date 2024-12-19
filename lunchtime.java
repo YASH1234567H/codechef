@@ -7,13 +7,16 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
-		int a=sc.nextInt();
 		int b=sc.nextInt();
-		if(2*a<=b)
+		for(int i=0;i<b;i++)
 		{
-		    System.out.println("yes");
-		}else{
-		    System.out.println("No");
-		}
+		    int a=sc.nextInt();
+		    if(a>=1 && a<=4)
+	     	{
+		        System.out.println("yes");
+	    	}else{
+		        System.out.println("no");
+	    	}
+	    }
 	}
 }

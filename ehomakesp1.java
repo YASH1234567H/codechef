@@ -9,11 +9,10 @@ class Codechef
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
 		int b=sc.nextInt();
-		if(2*a<=b)
-		{
-		    System.out.println("yes");
+		if(a<=b){
+		    System.out.println("tyro");
 		}else{
-		    System.out.println("No");
+		    System.out.println("dom");
 		}
 	}
 }

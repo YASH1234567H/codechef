@@ -9,11 +9,17 @@ class Codechef
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
 		int b=sc.nextInt();
-		if(2*a<=b)
+		if (a>b)
 		{
-		    System.out.println("yes");
-		}else{
-		    System.out.println("No");
+		    System.out.println("new");
+		}
+		else if(a==b)
+		{
+		    System.out.println("same");
+		}
+		else
+		{
+		    System.out.println("old");
 		}
 	}
 }
