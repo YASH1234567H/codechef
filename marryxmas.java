@@ -8,12 +8,12 @@ class Codechef
 	{
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
-		for(int i=0;i<a;i++){
-		    int b=sc.nextInt();
-		    int c=sc.nextInt();
-		    int e=(b+5)/6;
-		    int d=e*c;
-		    System.out.println(d);
+		if(a<=2){
+		    System.out.println("1");
+		}else if(a<7){
+		    System.out.println("2");
+		}else{
+		    System.out.println("3");
 		}
 	}
 }

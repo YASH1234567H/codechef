@@ -11,9 +11,11 @@ class Codechef
 		for(int i=0;i<a;i++){
 		    int b=sc.nextInt();
 		    int c=sc.nextInt();
-		    int e=(b+5)/6;
-		    int d=e*c;
-		    System.out.println(d);
+		    if(c*6*6>=b){
+		        System.out.println("yes");
+		    }else{
+		        System.out.println("no");
+		    }
 		}
 	}
 }
