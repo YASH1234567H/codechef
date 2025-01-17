@@ -12,7 +12,7 @@ class Codechef
 		{
 		    int b=sc.nextInt();
 		    if(b%3==0){
-		        System.out.println(0);
+		        System.out.println('0');
 		    }else{
 		        int c=((b/3)+1)*3;
 		        System.out.println(c-b);
